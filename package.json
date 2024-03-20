@@ -1,0 +1,32 @@
+{
+  "name": "@freakingreallyawesomenocode/future-code-assessment",
+  "version": "0.0.0",
+  "description": "The Future Code assessment",
+  "private": true,
+  "main": "index.mjs",
+  "scripts": {
+    "test": "mocha 'test/**/*.test.mjs'",
+    "test-file": "mocha",
+    "test-coverage": "c8 -r text -r html mocha 'test/**/*.test.mjs'",
+    "list-tests": "mocha 'test/**/*.test.mjs' --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-desert-technologies/future-code-assessment.git"
+  },
+  "author": {
+    "name": "Monster",
+    "email": "jacob@highdeserttechnologies.com",
+    "url": "https://github.com/orgs/high-desert-technologies/people/lockenj"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/high-desert-technologies/future-code-assessment#readme",
+  "devDependencies": {
+    "c8": "^9.1.0",
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": "20.7.0",
+    "npm": "10.1.0"
+  }
+}

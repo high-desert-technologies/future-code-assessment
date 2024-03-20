@@ -1,0 +1,12 @@
+.history/
+.DS_Store
+coverage/
+package-lock.json
+cdk.context.json
+.cdk.staging
+cdk.out
+node_modules/
+.env
+playwright-report/
+dist/
+distro/
